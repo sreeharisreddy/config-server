@@ -32,7 +32,7 @@ docker container stop <container-name>
  minikube service <name>
  
  kubectl delete service <name>
- kubectl delete deployment <name>
+ kubectl delete deployment <name>    //The Pods will be deleted
  minikube stop
  
  minikube delete
