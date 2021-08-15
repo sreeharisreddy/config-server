@@ -15,7 +15,24 @@ docker container ls
 #Listing Docker images available in hub
 docker imagaes ls
 
-#Stop the conatines 
+#Stop the conatines
+
 docker container stop <container-name>
 
+
  
+ kuberneties commands:
+ 
+ #Start the minikube cluster , initially it may create cluster
+ minikube start
+ kubectl get nodes
+ kubectl get pods
+ kubectl get svc   / kubectl get services
+ 
+ minikube service <name>
+ 
+ kubectl delete service <name>
+ kubectl delete deployment <name>
+ minikube stop
+ 
+ minikube delete
